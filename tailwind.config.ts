@@ -55,7 +55,7 @@ export default {
           "5": "hsl(var(--chart-5))",
         },
         primary: {
-          DEFAULT: "#E7C9A5",
+          DEFAULT: "#FDE68A",
           admin: "#25388C",
         },
         green: {
@@ -76,7 +76,7 @@ export default {
         },
         light: {
           100: "#D6E0FF",
-          200: "#EED1AC",
+          200: "#FDE68C",
           300: "#F8F8FF",
           400: "#EDF1F1",
           500: "#8D8D8D",
