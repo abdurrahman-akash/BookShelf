@@ -1,4 +1,4 @@
-import BookCard from '@/components/BookCard';
+import BookCard from '@/components/home/BookCard';
 
 interface Props {
     title: string;
@@ -13,7 +13,7 @@ export default function BookList({
 }: Props) {
     return (
         <section className={containerClassName}>
-            <h2 className="font-bebas-neue text-4xl text-light-100 ca">{title}</h2>
+            <h2 className="font-bebas-neue text-4xl text-light-100">{title}</h2>
 
             <ul className="book-list">
                 {books.map((book) => (

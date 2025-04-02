@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import BookCover from "@/components/BookCover";
+import BookCover from "@/components/home/BookCover";
 
 export default function BookOverview({ 
     title, 
