@@ -11,7 +11,7 @@ export default function BookOverview({
     available_copies, 
     description, 
     color, 
-    cover_image, 
+    coverUrl, 
 }: Book) {
     return (
         <section className="book-overview">
@@ -46,8 +46,8 @@ export default function BookOverview({
 
                 <p className="book-description">{description} </p>
 
-                <Button className="book-overview_btn">
-                    <Image src="/icons/book.svg" alt="book" width={22} height={22}></Image>
+                <Button>
+                    <Image src="/icons/book.svg" alt="book" width={22} height={22} />
                     <p className="font-bebas-neue text-xl text-dark-100">Borrow</p>
                 </Button>
             </div>
@@ -58,14 +58,15 @@ export default function BookOverview({
                         variant="wide"
                         className="z-10"
                         coverColor={color}
-                        coverImage={cover_image}
+                        coverImage={coverUrl}
                     />
 
                     <div className="absolute left-16 top-10 rotate-12 opacity-40 max-sm:hidden">
                     <BookCover
                         variant="wide"
+                        className=""
                         coverColor={color}
-                        coverImage={cover_image}
+                        coverImage={coverUrl}
                     />
                     </div>
                 </div>

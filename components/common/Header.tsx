@@ -11,7 +11,6 @@ export default function Header() {
         <header className="my-10 flex justify-between gap-5">
             <Link href="/">
                 <Image src="/icons/logo.svg" alt="logo" width={40} height={40} />
-            BookShelf
             </Link>
 
             <ul className="flex flex-row items-center gap-8">
